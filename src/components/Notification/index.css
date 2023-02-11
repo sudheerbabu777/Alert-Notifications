@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.alert-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.notification-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+  border: 1.5px solid #e5e5e5;
+  padding: 30px;
+  height: 150px;
+  margin: 8px;
+  border-radius: 4px;
+}
+
+.cross {
+  height: 20px;
+  width: 20px;
+}

@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.app-container {
+  padding: 30px;
+  margin: 30px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 800px;
+  overflow-y: auto;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.success {
+  height: 25px;
+  width: 25px;
+  margin-right: 30px;
+  margin-bottom: 40px;
+}
+
+.success-text {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.success-description {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #64748b;
+}
+
+.green {
+  color: #2dca73;
+}
+
+.red {
+  color: #ff0b37;
+}
+
+.orange {
+  color: #ffb800;
+}
+
+.blue {
+  color: #0f81e0;
+}
